@@ -10,9 +10,13 @@
 }
 
 /* flex related styles */
-/* section {
-    height: 90vh;
-} */
+
+.our-plants-center{
+    text-align: center;
+    margin: 50px 134px 0 134px;
+}
+
+
 .in-middle {
     margin: 0 134px 0 134px;
 }
@@ -49,9 +53,47 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
 }
 
 
+/* card realted styles */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+
+    max-width: 1000px;
+    gap: 20px;
+    text-align: center;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.card span{
+    display: inline-block;
+    padding-top: 5px;
+}
+.card img {
+    width: 100%;
+}
+
+
+/* card end */
+/* btn */
+
+.btn-one {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    background: rgb(233, 90, 8);
+    border: none;
+    height: 44.5px;
+    width: 100%;
+}
+/* btn end */
+.padding-top {
+    display: inline-block;
+    padding-top: 10px;
+}
 
 .li-flex {
     display: flex;
@@ -98,6 +140,11 @@
     color: rgb(233, 90, 8);
 }
 
+.color-four {
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
 
 /* font size related styles */
 
@@ -114,6 +161,13 @@
     color: rgba(0, 0, 0, 0.5);
 }
 
+.f-size-four {
+    font-size: 3.125rem;
+}
+
+.f-size-five {
+    font-size: 1.375rem;
+}
 
 @media screen and (max-width: 576px){
     .nav-bar {
