@@ -1,0 +1,71 @@
+/* universal styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* flex related styles */
+
+.in-middle {
+    margin: 0 134px 0 134px;
+}
+
+.in-middle-top {
+    margin: 20px 134px 0 134px;
+}
+/* 
+.flex {
+    display: flex;
+    justify-content: center;
+} */
+
+.flex-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.li-flex {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.li-flex a {
+    text-decoration: none;
+    /* color: black; only for now will change it later */
+}
+
+
+.nav-img img {
+
+    width: 75%;
+
+    /* width: 120px;
+    height: 73px; */
+}
+
+
+
+/* color related styles */
+
+.color-one {
+    color: rgb(37, 36, 50);
+
+}
+
+.color-two {
+    color: rgb(137, 135, 161);
+
+}
+
+
+/* font size related styles */
+
+.f-size-one{
+    font-size: 1rem;
+}
