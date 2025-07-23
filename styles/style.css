@@ -190,7 +190,7 @@
     }
 
     .hero-img {
-    justify-content: center;
+    justify-content: end;
     grid-row: 1;
     padding-bottom: 20px;
     }
@@ -198,9 +198,19 @@
     width: 100%;
     grid-row: 2;
 
+    padding: 10px 20px;
+
     
     }
-    
+
+    .f-size-four {
+        font-size: 1.5rem;
+    }
+
+    .color-four {
+        font-size: 0.875rem;
+    }
+
 
     .f-size-two {
         font-size: 1.375rem;
@@ -229,6 +239,8 @@
     margin: 20px 10px;
 }
 
- 
+ p {
+    text-align: justify;
+ }
 
 }
