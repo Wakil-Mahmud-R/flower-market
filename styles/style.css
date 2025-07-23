@@ -4,7 +4,10 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+/* hiding mobile nav bar in desktop */
+.hide-class{
+    display: none;
+}
 
 /* flex related styles */
 /* section {
@@ -69,7 +72,13 @@
     /* width: 120px;
     height: 73px; */
 }
+.nav-mobile img {
 
+    width: 55%;
+
+    /* width: 120px;
+    height: 73px; */
+}
 
 
 /* color related styles */
@@ -102,4 +111,46 @@
 .f-size-three {
     font-size: 1.25rem;
     color: rgba(0, 0, 0, 0.5);
+}
+
+
+@media screen and (max-width: 576px){
+    .nav-bar {
+        display: none;
+    }
+    .in-middle {
+        margin: 0;
+    }
+
+    .display-grid {
+    grid-template-columns: repeat(1, 1fr); 
+
+    }
+    .display-grid p {
+        padding-top: 10px;
+        font-size: 0.875rem;
+    }
+
+    .hero-img {
+    justify-content: center;
+    grid-row: 1;
+    padding-bottom: 20px;
+    }
+    .width-set-90 {
+    width: 100%;
+    grid-row: 2;
+
+    
+    }
+
+    .f-size-two {
+        font-size: 1.375rem;
+    }
+
+    .margin-top {
+    margin: 20px 20px 20px 20px;
+    /* will use this to center iteam later on */
+    
+}
+
 }
