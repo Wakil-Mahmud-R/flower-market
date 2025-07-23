@@ -7,7 +7,9 @@
 
 
 /* flex related styles */
-
+/* section {
+    height: 90vh;
+} */
 .in-middle {
     margin: 0 134px 0 134px;
 }
@@ -15,12 +17,31 @@
 .in-middle-top {
     margin: 20px 134px 0 134px;
 }
-/* 
-.flex {
-    display: flex;
-    justify-content: center;
-} */
 
+.display-grid {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    justify-content: start;
+    align-items: end;
+}
+.hero-img img {
+    width: 90%;
+}
+.hero-img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.margin-top {
+    margin-top: 110px;
+}
+
+.width-set-90 {
+    width: 92%;
+}
 .flex-one {
     display: flex;
     justify-content: space-between;
@@ -63,9 +84,22 @@
 
 }
 
+.color-three{
+    color: rgb(233, 90, 8);
+}
+
 
 /* font size related styles */
 
 .f-size-one{
     font-size: 1rem;
+}
+
+.f-size-two {
+    font-size: 3.625rem;
+}
+
+.f-size-three {
+    font-size: 1.25rem;
+    color: rgba(0, 0, 0, 0.5);
 }
