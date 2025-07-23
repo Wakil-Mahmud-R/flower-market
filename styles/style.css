@@ -88,6 +88,7 @@
     border: none;
     height: 44.5px;
     width: 100%;
+    margin-top: 10px;
 }
 /* btn end */
 .padding-top {
@@ -180,6 +181,18 @@
         margin: 0;
     }
 
+    .flex-one {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav-img{
+        display: flex;
+        justify-content: flex-start;
+    }
+
     .display-grid {
     grid-template-columns: repeat(1, 1fr); 
 
@@ -202,6 +215,7 @@
 
     
     }
+    
 
     .f-size-four {
         font-size: 1.5rem;
@@ -236,7 +250,7 @@
 .our-plants-center {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    margin: 20px 10px;
+    margin: 20px 20px;
 }
 
  p {
