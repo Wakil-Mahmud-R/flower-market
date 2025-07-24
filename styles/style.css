@@ -627,5 +627,9 @@ font-size: 2rem;
     padding: 0;
 }
 
+.badge {
+    display: none;
+}
+
 
 }
