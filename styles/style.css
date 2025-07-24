@@ -630,6 +630,11 @@ font-size: 2rem;
 .badge {
     display: none;
 }
-
+#hidden{
+    display: none;
+}
+#hide {
+    display: none;
+}
 
 }
