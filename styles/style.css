@@ -56,6 +56,7 @@
 
 .width-set-90 {
     width: 92%;
+    text-align: justify;
 }
 .flex-one {
     display: flex;
@@ -114,6 +115,7 @@
 
 .li-div li{
     padding: 10px 0;
+    text-align: justify;
 }
 .badge img{
     position: absolute;
@@ -310,12 +312,22 @@
     margin: 50px 10px;
 }
 
+ .margin-for-flower {
+    margin: 20px 20px 20px 20px;
+
+ }
+
 .our-plants-center {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     margin: 20px 20px;
 }
-
+.li-div{
+    padding-left: 20px;
+}
+.li-div li{
+    text-align: justify;
+}
  p {
     text-align: justify;
  }
