@@ -241,7 +241,9 @@
         text-align: center;
     }
 
-
+    .flex-two {
+        grid-template-columns: repeat(1, 1fr);
+    }
     .nav-img{
         display: flex;
         justify-content: flex-start;
