@@ -636,5 +636,7 @@ font-size: 2rem;
 #hide {
     display: none;
 }
-
+.right-side h3 {
+    font-size: 1.25rem;
+}
 }
